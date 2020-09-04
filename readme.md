@@ -7,3 +7,4 @@ This repo is a code along for this video: [Fullstack React GraphQL TypeScript Tu
 - [x] Initial setup of typescript compiler and nodemon and other scripts in package.json
 - [x] Install postgress and create a database called lireddit
 - [x] Setup a  git repo and make an initial commit
+- [x] Setup postgresql migrations
