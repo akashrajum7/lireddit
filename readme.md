@@ -9,4 +9,5 @@ This repo is a code along for this video: [Fullstack React GraphQL TypeScript Tu
 - [x] Setup a  git repo and make an initial commit
 - [x] Setup postgresql migrations
 - [x] Setup express
-- [x] Setup graphql 
+- [x] Setup graphql
+- [x] Create crud for post in graphql 
