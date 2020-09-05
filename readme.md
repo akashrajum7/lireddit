@@ -8,3 +8,4 @@ This repo is a code along for this video: [Fullstack React GraphQL TypeScript Tu
 - [x] Install postgress and create a database called lireddit
 - [x] Setup a  git repo and make an initial commit
 - [x] Setup postgresql migrations
+- [x] Setup express
