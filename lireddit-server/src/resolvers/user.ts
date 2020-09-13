@@ -5,7 +5,8 @@ import {
   Field,
   Arg,
   Ctx,
-  ObjectType,, Query
+  ObjectType,
+  Query,
 } from "type-graphql";
 import { MyContext } from "../types";
 import { User } from "../entities/User";
@@ -39,14 +40,11 @@ class UserResponse {
 
 @Resolver()
 export class UserResolver {
-
   @Query(() => User, { nullable: true })
-  async me(
-    @Ctx() { em, req }: MyContext 
-  ){
-    if(!req.session.userId){
+  async me(@Ctx() { em, req }: MyContext) {
+    if (!req.session.userId) {
       // No user present
-      return null
+      return null;
     }
     // Get the user from database
     const user = await em.findOne(User, { id: req.session.userId });
