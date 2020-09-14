@@ -14,3 +14,4 @@ This repo is a code along for this video: [Fullstack React GraphQL TypeScript Tu
 - [x] Create register and login
 - [x] Install and setup redis
 - [x] Set cookie on login 
+- [x] Set up frontend
